@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="265.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditController">
+   <children>
+      <TextField id="passport" fx:id="passport" prefHeight="25.0" prefWidth="172.0" promptText="Номер паспорта" />
+      <TextField id="specialty" fx:id="specialty" layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="317.0" promptText="Шифр специальности" />
+      <ChoiceBox id="education" fx:id="education" prefHeight="25.0" prefWidth="252.0" />
+      <ChoiceBox id="payment" fx:id="payment" layoutX="10.0" layoutY="60.0" prefHeight="25.0" prefWidth="278.0" />
+      <HBox spacing="5.0">
+         <children>
+            <Button id="close" mnemonicParsing="false" onAction="#close" text="Отмена" />
+            <Region prefHeight="25.0" prefWidth="34.0" />
+            <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#save" text="Сохранить" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="код:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/_jar</output-path>
+    <root id="archive" name="код.jar">
+      <element id="module-output" name="код" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jmetro-5.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
