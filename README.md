@@ -21,6 +21,38 @@ A JavaFX-based desktop application for managing student information and generati
 
 *Main interface showing student records table with action buttons, search functionality, and input forms*
 
+**Note:** The current application interface is in Russian. The screenshot shows the original Russian interface with the following elements:
+- Title: "Course work in Programming Languages and Methods. Completed by Mosenkov V.A."
+- Table columns: Actions, Passport Number, Specialty Code, Education Form, Payment Type
+- Education forms: "Очная" (Full-time), "Заочная" (Part-time)
+- Payment types: "Бюджет" (Budget), "Коммерция" (Commercial)
+- Action buttons: "Редактировать" (Edit), "Удалить" (Delete)
+- Input prompts and menu items are also in Russian
+
+## Interface Translation Reference
+
+Since the current application interface is in Russian, here's a translation reference for the key terms:
+
+### Russian to English UI Elements:
+- **Действия** → Actions
+- **Номер паспорта** → Passport Number  
+- **Шифр специальности** → Specialty Code
+- **Форма обучения** → Education Form
+- **Вид оплаты** → Payment Type
+- **Очная** → Full-time
+- **Заочная** → Part-time/Distance learning
+- **Бюджет** → Budget (government-funded)
+- **Коммерция** → Commercial (self-funded)
+- **Редактировать** → Edit
+- **Удалить** → Delete
+- **Добавить** → Add
+- **Поиск** → Search
+- **Общая статистика** → General Statistics
+- **Файл** → File
+- **Открыть** → Open
+- **Сохранить** → Save
+- **Выйти** → Exit
+
 ## Technology Stack
 
 - **Language**: Java
@@ -50,7 +82,21 @@ A JavaFX-based desktop application for managing student information and generati
 3. **Build and Run**:
    - Compile the project using your IDE's build system
    - Run the `Main.java` class to start the application
-   - Alternatively, use the pre-built JAR file in `out/artifacts/_jar/prg.jar`
+   - Alternatively, use the pre-built JAR file:
+     ```bash
+     java -jar out/artifacts/_jar/prg.jar
+     ```
+
+## Quick Start with Pre-built JAR
+
+If you just want to run the application without setting up the development environment:
+
+1. Ensure Java 8+ is installed on your system
+2. Download or clone the repository
+3. Run the application:
+   ```bash
+   java -jar out/artifacts/_jar/prg.jar
+   ```
 
 ## Usage
 
